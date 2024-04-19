@@ -19,26 +19,40 @@ app.component('vote-row', {
     </button>
     </div>`,
     methods: {
-        
-    },
-    computed: {
-        electVoteType(type) {
-            this.activeButton = type;
-        },
+    
         vote() {
+
+            let data  = {
+      
+                hasVoted: false,
+                activeButton: this.voteButonText
+            }
+
             if(this.voteButonText === 'Vote Again'){
                 this.hasVoted = false;
                 this.activeButton = null;
+                this.$emit('vote-event', {
+                    hasVoted: this.hasVoted,
+                    activeButton: this.activeButton
+                });
             }
             if (this.activeButton) {
                 this.hasVoted = true;
-                if (this.activeButton === 'thumbs-up') {
-                    this.person.votes.positive++;
-                } else {
-                    this.person.votes.negative++;
-                }
-                this.$emit('vote-event', this.person.id, this.activeButton);
+
+                this.$emit('vote-event', {
+                    hasVoted: this.hasVoted,
+                    activeButton: this.activeButton
+                });
             }
+        },
+        selectVoteType(type) {
+            this.activeButton = type;
+        },
+    },
+    computed: {
+        voteButonText() {
+            return this.hasVoted ? 'Vote Again' : 'Vote Now';
         }
+        
     }
 })

@@ -4,7 +4,7 @@
             "name": "Kanye West",
             "description": "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
             "category": "entertainment",
-            "picture": "kanye.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/fe63/1d57/1b70a986034537dee3a98e53b4e5362d?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PmmJ4FoQrTW6HhmEdVe4mlqmxKgDshWHeNQMph2zXZJyEMkBS02QsQVIQ7bVNqacuRTxKcmkLqHgOYb3YITYwwAwEUDii-dHqI8xQqdDY55~wcEeuwl3s4aCvn3EVlIIqWUXxuqDfXVfq1QZBU5EdvHgPQJVxiHVdur4F8CFVQHf5RyOLI2TAAUB0hOtrplU6MsFFhtjwjl-LtodwGrRAVRxtkQsHtvQrlQkZo0RktkCyzYnbujt~E91HGyFMpSmCH67rqPXuVaP37gJ4-i9vcg5nUBUdjCoXLZJxNcdBZ0YjEnsMUn9epMYXMGcZTx3O9eeB078bFASKH3HTqItvw__",
             "lastUpdated": "2020-03-10T23:08:57.892Z",
             "votes": {
                 "positive": 23,
@@ -15,7 +15,7 @@
             "name": "Mark Zuckerberg",
             "description": "Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004.",
             "category": "business",
-            "picture": "mark.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/72b7/66de/d5d7166ddb74dd60e14cd42ea4457fcc?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kUVsapbIeQPJVGiup4Ek9lLHMRiVMu~Q6zlBKz2Ijii-fvZbNUcuDL8CC30ICAPP4myFFA~cCPHxi2Stpvj1RkiyJEL99i2Tm2dvncjKtvijyeckviQFyt6XFPOeWYenym2rosfF3YD8n7N6of~6DYMx~V71zBWeN2jEAUb1Os3M9OzcLTvllHzMdUv43t1UPKZDxwX3CySVVKnLoFd1TKReoQLl9RsIzl2X3HkOFGQ1qMKubChRCTYdn3UmoVDE7UZXfOBM4f9dVj4FZ~2A-06-3MDqVSYABRpjPKLaM6UwQ-UmTynD6uht1YXC9udhey8R14dlcdtLlyBbyDeWHA__",
             "lastUpdated": "2021-02-14T23:10:19.134Z",
             "votes": {
                 "positive": 418,
@@ -26,7 +26,7 @@
             "name": "Cristina Fernández de Kirchner",
             "description": "Her first term of office started with a conflict with the agricultural sector, and her proposed taxation system was rejected.",
             "category": "politics",
-            "picture": "cristina.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/2fd6/8f28/bc83221593b7348787a06d032a2a6dbb?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dkWPS7wz2rSokZVhfJ49FhFi05HmL7EVBAdMmbZlaUs3DFikpgWMaZ7oUo7PtYKT5A-vKDuBQ9Wash6j7t0ii0h07CZuJT~gVEW0U4XYp6YgLcgnbQ9ifimMYByK7Y-Ngd6uhYSd8oQbytkDIa6CSPX5fHMD9KAZwXT0hxw0ZhxHTYZ-FmKcf0YYi~uUyJejfD7PWG9hZeMumYWzrlYS-lKZQy3YYONrE1esH1ue3jCYl0XQUOkdG99wV~m781gTUE9Jjv3tXYc26kumAqAKLigahzHGGyNf2qjqK5GbaqWvTHcZPxA1pmfNUAe~EV5swzMQk6Dc-ifQaT098dXW~w__",
             "lastUpdated": "2020-12-10T23:41:07.120Z",
             "votes": {
                 "positive": 45,
@@ -37,7 +37,7 @@
             "name": "Malala Yousafzai",
             "description": "The daughter of educational activist Ziauddin, Yousafzai was born to a Pashtun family in Mingora, Khyber Pakhtunkhwa, Pakistan. Her family came to run a chain of schools in the region.",
             "category": "politics",
-            "picture": "malala.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/1629/5a48/017f8d8f6063e2989538f27f849b080f?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KQI3W1Zs6uOzARx4dQBF6ixegl~NFhA-MuKosJLrqBuTgO~ClkzCzNy71qTH9C1eiUo5QHjAYY53kCe-Dne883f08Gn1NSuv4BeMaZTlM6PopUstpQH2bKmpLEPJsSmyZw1aJeqQ~09ujAzZXrppt3dPfVB2Q2eNQ6By1OCRk9JctOzpR89XnZ9q7L1HRH7f4mc5VHAZomvCxMY4gxPiXbwBZAebHv-eEuK00lbgXM9W9zImTrjKqR9ViDq0mxGXMg05b3uczFAx8e5GUAcu-ngJTfO5zgqLI0~oAt3XouTsSwgwDCc011So0NdDQ3WHF4Yajdw6UuiOJ4cOXB3WDQ__",
             "lastUpdated": "2020-12-10T23:41:07.120Z",
             "votes": {
                 "positive": 18,
@@ -48,7 +48,7 @@
             "name": "Elon Musk",
             "description": "In 2002, Musk founded SpaceX, an aerospace manufacturer and space transport services company, of which he is CEO, CTO, and lead designer.",
             "category": "business",
-            "picture": "elon.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/ec8b/dfb2/c784fb561ef2cb3e170851d33c679161?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YrW3fbCp0tc7gncxK8Sc30WeqG-UD5u2ABqGty3ViNCBCfewhk2-HpWR4HoFBnVdFxPWQT2Kx~1cbiwlpL2GW9k5d3kRw8snYdMe08~gF9QdH9dgH8OTAx94IqL5eqpTsEqrjqUPTDB89wbHVhSaxWPXmoKGGYJH1fkqTjVWH9OzN-N84zD5Xd7zXdCPDXEGzwVjQtQipaCUJI1LbiRn7Zq9fwjJcp53NR3jG2rEZlUdCCmHVcTwMYyPe90sV6H-BLtrW~okcrNXfjRfbaf~r-6NHmXAYycvz0KscOXAJG8eb08jYcjvrjFSW-GwT~ERD-RQs3jHO4Zpv4rLwbtT1Q__",
             "lastUpdated": "2020-12-20T23:43:38.041Z",
             "votes": {
                 "positive": 1237,
@@ -59,7 +59,7 @@
             "name": "Greta Thumberg",
             "description": "Thunberg's activism started after convincing her parents to adopt several lifestyle choices to reduce their own carbon footprint.",
             "category": "environment",
-            "picture": "greta.png",
+            "picture": "https://s3-alpha-sig.figma.com/img/b9ad/6194/1abd954cb54588298afc2b6c9a116504?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S03IncvGJrzKUlbf5ATB7zGiOMae~vISEXqGoNrtq~Qnh3AUvA~GslsxpNxeZRiK4GD6VzCRw9pnIFAPkg6KAk4uNo-w~NJ-ry2t2HdBsP6~TLQHY3pCcECL-g71k8zdCa8oJCIaWtH8-7KDOvJYcQ6-VyAd79B5PcowsuvmYmI420oXTefxYgjUO4Z1JRaogq5k2t1c~RYKFHptTRxQx1RsdA12vvQfrBwtGOsyp-g1XqEISnYdXc5U8CntfdYY1u0rdvzLjt4dzB7PwWUKkr7zHSrQGDLS8V4CfHicw5~5t~5SVPMet0FfsxsPU1sB~7tsCqSl~NXpx6yVRJ9NCA__",
             "lastUpdated": "2021-02-26T23:44:50.326Z",
             "votes": {
                 "positive": 118,

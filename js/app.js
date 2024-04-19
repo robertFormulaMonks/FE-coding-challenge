@@ -17,6 +17,7 @@ const app = Vue.createApp({
         this.isDesktop = window.innerWidth > 768; 
         this.layoutMode = this.isDesktop ? 'grid' : 'list';
         window.addEventListener('resize', () => {
+            this.layoutMode = this.isDesktop ? 'grid' : 'list';
             this.isDesktop = window.innerWidth > 768;
         });
     },

@@ -103,22 +103,17 @@
         <main role="main">
             <!-- Start: Implementation -->
             <div id="app">
-
                 <div class="app-container-div">
                     <div>
                         <h2 class="previous-rulings">Previous Rulings</h2>
-
                     </div>
-
                     <select id="colors" v-model="layoutMode" class="layoutDropDown" v-show="isDesktopOrTablet">
                         <option value="list">List</option>
                         <option value="grid">Grid</option>
                     </select>
                 </div>
-
                 <cards-container-component :data="data" :layout-mode="layoutMode">
                 </cards-container-component>
-
             </div>
             <!-- End: Implementation -->
         </main>
@@ -175,8 +170,7 @@
     <script src="js/app.js"></script>
    
     <!-- components -->
-    <script src="js/components/SquareCardComponent.js"></script>
-    <script src="js/components/RectangleCardComponent.js"></script>
+    <script src="js/components/CardComponent.js"></script>
     <script src="js/components/CardsContainerComponent.js"></script>
     <script src="js/components/VotesGaugeBar.js"></script>
     <script src="js/components/voteRowComponent.js"></script>
@@ -185,8 +179,7 @@
     <script src="js/utilities/cookies-utility.js"></script>
 
     <!-- mount app -->
-    <script>const mountedApp = app.mount('#app')
-    </script>
+    <script>const mountedApp = app.mount('#app')</script>
     
 </body>
 

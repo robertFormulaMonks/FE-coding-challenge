@@ -7,14 +7,13 @@ const app = Vue.createApp({
         }
     },
     created() {
-        //fetch data from json file
         fetch('../../assets/data.json')
             .then(response => response.json())
             .then(response => {
                 this.data = response.data
             })
-            this.checkDeviceType();
-            this.updateLayoutMode();
+        this.checkDeviceType();
+        this.updateLayoutMode();
     },
     mounted() {
         this.checkDeviceType();
@@ -29,14 +28,14 @@ const app = Vue.createApp({
         checkDeviceType() {
             const width = window.innerWidth;
             if (width < 768) {
-              this.deviceType = 'mobile';
+                this.deviceType = 'mobile';
             } else if (width >= 768 && width < 1024) {
-              this.deviceType = 'tablet';
+                this.deviceType = 'tablet';
             } else {
-              this.deviceType = 'desktop';
+                this.deviceType = 'desktop';
             }
-          },
-          updateLayoutMode() {
+        },
+        updateLayoutMode() {
             switch (this.deviceType) {
                 case 'desktop':
                     this.layoutMode = 'grid';
@@ -47,7 +46,8 @@ const app = Vue.createApp({
                 case 'mobile':
                     this.layoutMode = 'carousel';
                     break;
-            }}
+            }
+        }
     },
     computed: {
         isDesktopOrTablet() {

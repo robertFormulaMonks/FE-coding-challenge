@@ -485,12 +485,12 @@ main h2 {
     flex-wrap: nowrap;
     overflow-x: auto;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    gap: 1.688rem;
 }
 
 .carousel-item {
     flex: 0 0 auto;
+    width: 90% !important;
     aspect-ratio: 16 / 9;
     scroll-snap-align: start; 
   }
@@ -643,8 +643,9 @@ main h2 {
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-right: 10px;
+    
     
     
 }
@@ -705,6 +706,7 @@ main h2 {
     text-align: center;
     border: 2px solid black;
 }
+
 
 @media all and (min-width: 500px) {
     .banner-top .banner__left {

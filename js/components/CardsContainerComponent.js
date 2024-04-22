@@ -13,9 +13,9 @@ app.component('cards-container-component', {
     /*html*/
     `
         <div class="cards-container" :class="getLayourClass">
-            <square-card v-for="(item, index) in data" :person="item" v-if:="isGrid"></square-card>
-            <rectangle-card v-for="(item, index) in data" :person="item" v-if:="isTablet"></rectangle-card>
-            <square-card :class="'carousel-item'" v-for="(item, index) in data"  :person="item" v-if:="isCarousel"></square-card>
+            <card-component v-for="(item, index) in data" :person="item"  v-if:="isGrid" :isSquaredCard="true"></card-component>
+            <card-component v-for="(item, index) in data" :person="item"  :isSquaredCard="false" v-if:="isTablet"></card-component>
+            <card-component v-for="(item, index) in data"  :person="item"  v-if:="isCarousel"  :isSquaredCard="true" :rootClass="'carousel-item'"></card-component>
         </div>
     `,
     computed: {

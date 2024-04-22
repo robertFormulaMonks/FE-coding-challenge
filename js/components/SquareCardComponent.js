@@ -2,7 +2,8 @@ app.component('square-card', {
     data() {
         return {
             hasVoted: false,
-            activeButton: null
+            activeButton: null,
+            votes: getFromCookies(this.person.name.replace(/\s/g, '_')) ?? this.person.votes
         };
     },
     props: {
@@ -24,7 +25,7 @@ app.component('square-card', {
                     <span v-show:="!hasVoted" class="date-category">{{ relativeTime }} in {{ person.category }}</span>
                     <span v-show:="hasVoted" class="date-category">Thank you for your vote!</span>
                     <vote-row @vote-event="handleVote"></vote-row>
-                    <votes-gauge-bar :positiveVotesCount="person.votes.positive" :negativeVotesCount="person.votes.negative"></votes-gauge-bar>
+                    <votes-gauge-bar :positiveVotesCount="votes.positive" :negativeVotesCount="votes.negative"></votes-gauge-bar>
                 </div>
             </div>
         </div>
@@ -35,15 +36,17 @@ app.component('square-card', {
         },
         isThumbsUpHigher() {
             return this.person.votes.positive > this.person.votes.negative;
-        }
+        },
     },
     methods: {
         handleVote(voteData) {
             this.hasVoted = voteData.hasVoted;
             if (voteData.activeButton === 'thumbs-up') {
-                this.person.votes.positive++;
+                this.votes.positive++;
+                saveToCookies(this.person.name.replace(/\s/g, '_'), this.votes);
             } else if (voteData.activeButton === 'thumbs-down'){
-                this.person.votes.negative++;
+                this.votes.negative--;
+                saveToCookies(this.person.name.replace(/\s/g, '_'), this.votes);
             }
         }
     },

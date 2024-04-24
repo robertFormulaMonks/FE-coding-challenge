@@ -460,6 +460,254 @@ main h2 {
     display: contents;
 }
 
+.app-container-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2.25rem;
+    align-items: center;
+}
+
+.web-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.688rem;
+}
+
+.tablet-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1.688rem;
+}
+
+.mobile-layout {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    gap: 1.688rem;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 90% !important;
+    aspect-ratio: 16 / 9;
+    scroll-snap-align: start; 
+  }
+
+/* square card */
+
+.square-card {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vote-ui-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
+    margin-top: 1.5rem;
+    align-items: center;
+    padding-right: 2.063rem;
+}
+
+.vote-now-button {
+    background-color: var( --color-dark-background);
+    color: var(--color-white);
+    height: 2.375rem;
+    width: 6.688rem;
+    border: 1px solid var(--color-white);
+}
+
+.thumbs-vote-button {
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 7px;
+}
+
+.thumbs-vote-button-header {
+    width: 1rem;
+    height: 1rem;
+    padding: 7px;
+}
+
+.thumbs-active-border {
+    border: 0.125rem solid rgb(255, 255, 255);
+}
+
+.content-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#ffffff00, #000000c7);
+    /* Semi-transparent background */
+    color: white;
+    
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.card-header-name {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color-white);
+    margin: 0 0 0;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    
+}
+
+.person-description {
+    font-size: 0.900rem;
+    font-weight: 300;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+  margin-bottom: 0.75rem;
+  padding-left: 2.063rem;
+  padding-right: 2.063rem;
+
+}
+
+.date-category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-white);
+    text-align: right;
+    display: block;
+    width: 90%;
+}
+
+.card-header-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding-left: 0.4rem;
+    padding-right: 2.063rem;
+    
+}
+
+/* progress var */
+
+.progress-bar-container {
+    display: flex;
+    flex-direction: row;
+    height: 2.2rem;
+    margin-top: 0.75rem;
+}
+
+.tumbs-filled-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    
+}
+
+/* rectangle card */
+
+.rectangle-card {
+    width: 100%;
+    height: 10.875rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rectangle-content-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#ffffff00, #000000c7);
+    /* Semi-transparent background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    padding-right: 10px;
+    
+    
+    
+}
+
+.rectangle-card-image {
+    width: 100%;
+    height: 100%;
+    background-position: left center, left center;
+    background-size: auto, 20% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.rectangle-thumbs-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rectangle-person-description {
+    font-size: 0.900rem;
+    font-weight: 400;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+
+.rectangle-card-header-container {
+    margin-left: 9.375rem;
+    width: 23rem;
+}
+
+/* generic styles  */
+
+.pin-to-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.white-text {
+    color: var(--color-white);
+}
+
+/* header */
+.previous-rulings {
+    font-size: 2.813rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.layoutDropDown {
+    width: 10.813rem;
+    height: 2.25rem;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
 @media all and (min-width: 500px) {
     .banner-top .banner__left {
         flex-basis: 30%;
